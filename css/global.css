@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*DESKTOP*/
+  --h1-desktop: 800 64px/120% "Inter", sans-serif;
+  --h2-desktop: 800 48px/120% "Inter", sans-serif;
+  --h2-2-desktop: 500 40px/140% "Inter", sans-serif;
+  --h3-desktop: 800 32px/120% "Inter", sans-serif;
+  --span-desktop: 500 14px/100% "Inter", sans-serif;
+  --p-desktop: 400 16px/160% "Inter", sans-serif;
+
+  /*MOBILE*/
+  --h1-mobile: 800 40px/120% "Inter", sans-serif;
+  --h2-mobile: 800 24px/120% "Inter", sans-serif;
+  --h3-mobile: 800 20px/120% "Inter", sans-serif;
+  --span-mobile: 500 14px/100% "Inter", sans-serif;
+  --p-mobile: 400 16px/160% "Inter", sans-serif;
+  
+  /* BRAND / PRODUTO*/
+  --brand-gradient: linear-gradient(90deg, #FC4A1A, #F7B733);
+  --brand-primary: #F7B733;
+  --brand-secondary: #FC4A1A;
+
+  /*BASE*/
+  --background-color: #09090B;
+  --surface-color: #18181B;
+  --stroke-color: #27272A;
+  --text-color-primary: #F4F4F5;
+  --text-color-secondary: #A1A1AA;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+

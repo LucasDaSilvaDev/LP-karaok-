@@ -1,0 +1,55 @@
+main{
+  min-height: 100vh;
+  background-image:url(../assets/img/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--background-color)
+}
+ 
+.onda-sonora{
+  display: flex;
+ justify-content: center;
+ padding-top: 100px;
+}
+
+main h1{
+  padding-top: 30px;
+  color: var(--text-color-primary);
+  text-align: center;
+  font: var( --h1-desktop);
+}
+
+main h2{
+  padding-top: 20px;
+  color: var(--text-color-secondary);
+  text-align: center;
+  font: var(--h2-2-desktop);
+}
+
+.cta-buttons {
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-outline {
+  padding: 12px 24px;
+  border: 1.5px solid var(--text-color-primary);
+  border-radius: 8px;
+  color: var(--text-color-primary);
+  text-decoration: none;
+  font: var(--p-desktop);
+}
+
+/* Botão sólido */
+.btn-solid {
+  padding: 12px 24px;
+  background: var(--text-color-primary);
+  border-radius: 10px;
+
+  color: var(--background-color);
+  text-decoration: none;
+  font: var(--p-desktop);
+}

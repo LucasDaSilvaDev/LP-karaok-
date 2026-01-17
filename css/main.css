@@ -43,7 +43,14 @@ main h2{
   font: var(--p-desktop);
 }
 
-/* Botão sólido */
+.btn-outline:hover {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1.5px solid var(--brand-primary);
+  color: var(--brand-primary);
+
+}
+
 .btn-solid {
   padding: 12px 24px;
   background: var(--text-color-primary);
@@ -52,4 +59,9 @@ main h2{
   color: var(--background-color);
   text-decoration: none;
   font: var(--p-desktop);
+}
+
+.btn-solid:hover{
+  background: var(--brand-gradient);
+  color: var(--text-color-primary);
 }

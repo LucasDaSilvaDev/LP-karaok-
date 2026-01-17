@@ -1,0 +1,32 @@
+.conheca-app{
+  background-color: var(--surface-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+   padding-block: 80px;
+}
+
+.foto-conheca-app {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-app{
+  padding-left: 50px;
+}
+
+.text-app span{
+ color: var(--brand-primary);
+ font: var(--span-desktop);
+}
+
+.text-app h2{
+  padding-block: 8px;
+  color: var(--text-color-primary);
+  font: var(--h2-desktop);
+}
+
+.text-app p{
+  color: var(--text-color-secondary);
+  font: var(--p-desktop);
+}

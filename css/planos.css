@@ -1,0 +1,106 @@
+.planos{
+  background-color: var(--background-color);
+  padding-block: 80px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.intro span{
+   color: var(--brand-primary);
+ font: var(--span-desktop);
+ padding-bottom: 8px;
+}
+
+.intro h2{
+   color: var(--text-color-primary);
+  font: var(--h2-desktop);
+  padding-bottom: 32px;
+}
+
+
+.cards-planos {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.card-plano {
+  background: var(--stroke-color);
+  padding: 32px;
+  border-radius: 24px;
+  width: 300px;
+  position: relative;
+  border: solid 1px #39393b;
+}
+
+.card-plano h3 {
+  padding-top: 32px;
+  font: var(--h3-desktop);
+  color: var(--text-color-primary);
+}
+
+.descricao {
+  padding-top: 4px;
+  font: var(--p-desktop);
+  color: var(--text-color-secondary);
+}
+
+.preco {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.preco span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.btn.primary {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+/* Lista */
+.card-plano ul {
+  list-style: none;
+}
+
+.card-plano  li {
+  color: #ccc;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+/* Destaque Premium */
+.card-plano.destaque {
+  background:
+    linear-gradient(#27272A, #27272a) padding-box,
+    linear-gradient(90deg, #FC4A1A, #ffd000) border-box;
+
+  border: 2px solid transparent;
+}
+
+.tag {
+  position: absolute;
+  border-radius: 24px 0 24px 0;
+  top: -2px;
+  left: -2px;
+  background: var( --brand-gradient);
+  color: var(--background-color);
+  padding: 6px 10px;
+}

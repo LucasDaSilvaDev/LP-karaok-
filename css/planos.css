@@ -30,9 +30,15 @@
   background: var(--stroke-color);
   padding: 32px;
   border-radius: 24px;
-  width: 300px;
+  width: 350px;
   position: relative;
   border: solid 1px #39393b;
+}
+
+.preco{
+  font: var(--h2-desktop);
+  color: var(--text-color-primary);
+  padding-block: 24px;
 }
 
 .card-plano h3 {
@@ -62,16 +68,28 @@
   text-align: center;
   padding: 14px;
   border-radius: 8px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--text-color-primary);
+  color: var(--text-color-primary);
   text-decoration: none;
   margin-bottom: 24px;
+  font: var(--p-desktop);
+}
+
+.btn:hover{
+  border: 1px solid var(--brand-primary); 
+  color: var(--brand-primary)
 }
 
 .btn.primary {
-  background: #fff;
-  color: #000;
+  background: var(--text-color-primary);
+  color: var(--background-color);
   border: none;
+  font: var(--p-desktop);
+}
+
+.btn.primary:hover{
+  background: var(--brand-gradient);
+  color: var(--text-color-primary);
 }
 
 /* Lista */
@@ -80,7 +98,7 @@
 }
 
 .card-plano  li {
-  color: #ccc;
+  color: var(--text-color-secondary);
   margin-bottom: 12px;
   display: flex;
   gap: 8px;

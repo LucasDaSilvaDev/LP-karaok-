@@ -57,15 +57,23 @@ header{
   
 
 @media (max-width: 768px) {
-   header{
-    padding-block: 16px;
+  header {
+    padding-inline: 16px;
+    width: 100%;
   }
 
-  .utilidades-do-header a:not(.btn-header){
+  .utilidades-do-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+  }
+
+  .utilidades-do-header a:not(.btn-header) {
     display: none;
   }
 
-  .btn-header{
+  .btn-header {
     padding: 8px 14px;
   }
 }

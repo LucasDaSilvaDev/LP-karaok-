@@ -25,7 +25,8 @@
 @media (max-width: 768px) {
 
 .funcionalidades img{
-  height: 250px;
+  height: 210px;
+  
 }
 
   .grid1{
@@ -33,12 +34,15 @@
   gap: 32px;
   grid-template-columns: repeat(1,1fr);
   padding-bottom: 32px;
+  margin-right: 20px;
+  
 }
 
  .grid2{
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(1,1fr);
-  padding-bottom: 32px;}
-
+  padding-bottom: 32px;
+  margin-right: 46px;
+}
 }

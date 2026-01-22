@@ -73,6 +73,7 @@ main h2{
 
   .onda-sonora{
     padding-top: 100px;
+    padding-right: 32px;
   }
 
   .onda-sonora img{
@@ -82,15 +83,38 @@ main h2{
   main h1{
    font: var(--h1-mobile);
     padding-top: 24px;
+    padding-right: 32px;
   }
 
   main h2{
     font: var(--h2-mobile);
     padding-top: 16px;
+    padding-right: 32px;
   }
 
   .cta-buttons{
     padding-top: 60px;
+    padding-right: 90px;
     
 }
+
+.btn-outline {
+  padding: 12px 30px;
+  border: 1.5px solid var(--text-color-primary);
+  border-radius: 8px;
+  color: var(--text-color-primary);
+  text-decoration: none;
+  font: var(--p-mobile);
+}
+
+btn-solid {
+  padding: 12px 30px;
+  background: var(--text-color-primary);
+  border-radius: 10px;
+
+  color: var(--background-color);
+  text-decoration: none;
+  font: var(--p-desktop);
+}
+
 }

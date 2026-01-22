@@ -128,17 +128,20 @@
   .intro span{
    color: var(--brand-primary);
  font: var(--span-mobile);
+ padding-right: 42px;
 }
 
 .intro h2{
    color: var(--text-color-primary);
   font: var(--h2-mobile);
   padding-bottom: 50px;
+  padding-right: 42px;
 }
 
 .cards-planos {
   display: grid;
   gap: 32px;
+  margin-right: 37px;
  
 }
 

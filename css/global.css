@@ -2,8 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
+  
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}
+
 
 :root {
   
@@ -39,4 +47,8 @@
   padding-right: 32px;
 }
 
-
+@media (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+}

@@ -39,18 +39,19 @@
   }
 
     .foto-conheca-app{
-    order: -1; /* joga a imagem pra cima */
+    order: -1; 
     justify-content: center;
     margin-bottom: 48px;
-    margin-top: -450px
+    margin-top: -450px;
   }
 
   .foto-conheca-app img{
     max-width: 400px;
+    padding-right: 60px;
   }
 
   .text-app{
-   padding-right: 100px;
+   padding-right: 120px;
   }
 
   .text-app h2{

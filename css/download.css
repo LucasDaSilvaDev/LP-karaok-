@@ -6,7 +6,6 @@
 .caixa-download{
   background-color: var(--surface-color);
   border-radius: 24px;
-  /* height: 512px; */
     position: relative;
 }
 
@@ -47,4 +46,63 @@
   padding-top: 40px;
   padding-left: 80px;
   padding-bottom: 140px;
+}
+
+@media (max-width: 768px){
+.txt-download span{
+  color: var(--brand-primary);
+  font: var(--span-mobile);
+}
+.txt-download h2{
+   color: var(--text-color-primary);
+  font: var(--h2-mobile);
+  padding-block: 8px;
+}
+.txt-download p{
+   font: var(--p-mobile);
+  color: var(--text-color-secondary);
+}
+
+ .caixa-download{
+    padding: 32px 16px 0;
+  }
+  .txt-download{
+    padding-top: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .plataformas-download{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-top: 24px;
+    gap: 12px;
+  }
+
+  .plataformas-download img{
+    width: 180px;
+  }
+
+  /* IMAGEM */
+  .img-msc{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .img-msc img{
+  display: flex;
+  justify-content: flex-end;
+  height: 300px;
+
+  position: absolute;
+  right: 2px;
+  bottom: -33px; 
+  }
+
+
 }

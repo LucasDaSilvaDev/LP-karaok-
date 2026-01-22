@@ -55,3 +55,17 @@ header{
   background: var(--brand-gradient);
 }
   
+
+@media (max-width: 768px) {
+   header{
+    padding-block: 16px;
+  }
+
+  .utilidades-do-header a:not(.btn-header){
+    display: none;
+  }
+
+  .btn-header{
+    padding: 8px 14px;
+  }
+}

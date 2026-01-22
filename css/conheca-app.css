@@ -30,3 +30,38 @@
   color: var(--text-color-secondary);
   font: var(--p-desktop);
 }
+
+@media (max-width: 768px) {
+   .conheca-app{
+    grid-template-columns: 1fr;
+    padding-bottom: 48px;
+    text-align: center;
+  }
+
+    .foto-conheca-app{
+    order: -1; /* joga a imagem pra cima */
+    justify-content: center;
+    margin-bottom: 48px;
+    margin-top: -450px
+  }
+
+  .foto-conheca-app img{
+    max-width: 400px;
+  }
+
+  .text-app{
+   padding-right: 100px;
+  }
+
+  .text-app h2{
+   font: var(--h2-mobile);
+  }
+
+  .text-app p{
+     font: var(--p-mobile);
+  }
+
+.text-app span{
+  font: var(--span-mobile);
+}
+}

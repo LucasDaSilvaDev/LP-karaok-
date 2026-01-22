@@ -65,3 +65,32 @@ main h2{
   background: var(--brand-gradient);
   color: var(--text-color-primary);
 }
+
+@media (max-width: 768px){
+   main{
+    padding-inline: 16px;
+  }
+
+  .onda-sonora{
+    padding-top: 100px;
+  }
+
+  .onda-sonora img{
+    max-width: 300px;
+  }
+
+  main h1{
+   font: var(--h1-mobile);
+    padding-top: 24px;
+  }
+
+  main h2{
+    font: var(--h2-mobile);
+    padding-top: 16px;
+  }
+
+  .cta-buttons{
+    padding-top: 60px;
+    
+}
+}

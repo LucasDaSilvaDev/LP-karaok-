@@ -66,7 +66,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 32px;
+    
   }
 
   .utilidades-do-header a:not(.btn-header) {

@@ -92,7 +92,7 @@
   color: var(--text-color-primary);
 }
 
-/* Lista */
+
 .card-plano ul {
   list-style: none;
 }
@@ -128,20 +128,20 @@
   .intro span{
    color: var(--brand-primary);
  font: var(--span-mobile);
- padding-right: 42px;
+ text-align: center;
 }
 
 .intro h2{
    color: var(--text-color-primary);
   font: var(--h2-mobile);
   padding-bottom: 50px;
-  padding-right: 42px;
+  text-align: center;
 }
 
 .cards-planos {
   display: grid;
   gap: 32px;
-  margin-right: 37px;
+ 
  
 }
 

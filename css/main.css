@@ -73,7 +73,7 @@ main h2{
 
   .onda-sonora{
     padding-top: 100px;
-    padding-right: 32px;
+   
   }
 
   .onda-sonora img{
@@ -83,19 +83,15 @@ main h2{
   main h1{
    font: var(--h1-mobile);
     padding-top: 24px;
-    padding-right: 32px;
   }
 
   main h2{
     font: var(--h2-mobile);
     padding-top: 16px;
-    padding-right: 32px;
   }
 
   .cta-buttons{
     padding-top: 60px;
-    padding-right: 90px;
-    
 }
 
 .btn-outline {
